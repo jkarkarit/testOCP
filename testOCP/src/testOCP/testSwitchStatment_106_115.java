@@ -4,7 +4,7 @@ package testOCP;
  * @author Mars
  *
  */
-public class test {
+public class testSwitchStatment_106_115 {
 	// @formatter:off
 	
 	////////////////////////////////////////////////////////////////
@@ -137,9 +137,9 @@ public class test {
 		
 		
 		// test.printSeason(2); 
-		test.printDayOfWeek(2); 
-		test.printDayOfWeek(0); 
-		test.printDayOfWeek(200); 
+		testSwitchStatment_106_115.printDayOfWeek(2); 
+		testSwitchStatment_106_115.printDayOfWeek(0); 
+		testSwitchStatment_106_115.printDayOfWeek(200); 
 
 if (false) {
 		if (valueInteger instanceof Integer){System.out.println(1);}
@@ -152,8 +152,8 @@ if (false) {
 		
 		valueInteger	= 123;
 		valueNumber 	= 456;
-		test.printIntegersOrNumbesGreaterThan5(valueInteger); // Integer is also a Number
-		test.printIntegersOrNumbesGreaterThan5(valueNumber);  // Number is a Number
+		testSwitchStatment_106_115.printIntegersOrNumbesGreaterThan5(valueInteger); // Integer is also a Number
+		testSwitchStatment_106_115.printIntegersOrNumbesGreaterThan5(valueNumber);  // Number is a Number
  		// test.printIntegersOrNumbesGreaterThan6(valueInteger);
     	// test.printIntegersOrNumbesGreaterThan6(valueNumber);
 		}
