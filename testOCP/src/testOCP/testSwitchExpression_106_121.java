@@ -9,7 +9,12 @@ public class testSwitchExpression_106_121 {
 	// @formatter:off
 	
 	////////////////////////////////////////////////////////////////
+	
+	
 	enum Season {WINTER, SPRING, SUMMER, FALL}
+	// enum constants are public , static and final 
+	// therefore "static" before enum is not required
+	
 	static String getWeather(Season value) {
 		return switch(value) {
 			case WINTER -> "cold";
